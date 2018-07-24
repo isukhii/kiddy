@@ -1,20 +1,213 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="m">
+    <div class="navbar navbar-fixed-top " id="menu">
+        <div class="container">
+            <div class="navbar-header">
+            
+                <a class="navbar-brand" routerLink="/"><span class="step">Stepping</span><br><span class="stones">&nbsp; Stones</span></a>
+            </div>
+           
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a routerLink="/" ><img src="/assets/img/house.png"><br> HOME</a></li>
+                     <li class="dropdown"><a routerLink="#"><img src="/assets/img/features.png"><br>ABOUT US</a>
+                           <span class="dropdown-content"> <a routerLink="/approach">Our Approach</a>
+                            <a routerLink="/zone">Zones</a>
+                            <a routerLink="/gallery">Gallery</a></span>
+                     </li>
+                    <li><a routerLink="#"><img src="/assets/img/faculty.png"><br>FACULTY</a></li>
+                     <li class="dropdown"><a routerLink="#"><img src="/assets/img/courses.png"><br>COURSES</a>
+                        <span class="dropdown-content"> <a routerLink="#">Nursery</a>
+    <a routerLink="#">Jr. Kg</a>
+     <a routerLink="#">Sr. Kg</a>
+        </span>
+
+
+
+                     </li>
+                     <li><a routerLink="#"><img src="/assets/img/contact.png"><br>CONTACT</a></li>
+                </ul>
+   
+           
+        </div>
+    </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+
+
+<div class="banner">
+	<div class="imgb">
+		<img src="/assets/img/blackboard.png" class="bannerimg">
+		<img src="/assets/img/banner.jpeg" class="imgbanner">
+	</div>
+	<div class="welcome">
+		Welcome to <br>Stepping Stones!<br>
+		<div class="learn">
+			<h3>A perfect learning center for your kids.</h3>
+		</div>
+	</div>
+</div>
+<div class="sbanner">
+	
+</div>
+<div class="row">
+	<div class="col-xs-12 widget-title-dark widget-title clearfix">
+		<h2 class="widget-title">Why Love Us</h2>				
+	</div>
+
+	<div class="col-sm-3 col-xs-12 item">
+		<div class="widget-circle" style="background-color:#f25141; color:#f25141;">
+			<img src="/assets/img/valentines16.png" alt="circle image" data-no-retina="">
+			<div class="item-circle-edge" style="box-shadow: 0 0 0 4px #f25141;">
+			</div>
+		</div>
+		<div class="widget-circle-title" style="color:#f25141">
+			Great Teachers					
+		</div>
+		
+	</div>
+
+	<div class="col-sm-3 col-xs-12 item">
+		<div class="widget-circle" style="background-color:#ffd823; color:#ffd823;">
+			<img src="/assets/img/baby152.png" alt="circle image" data-no-retina="">
+			<div class="item-circle-edge" style="box-shadow: 0 0 0 4px #ffd823;">
+			</div>
+		</div>
+		<div class="widget-circle-title" style="color:#ffd823">
+			Nurturing Enviroment					
+		</div>
+		
+	</div>
+
+	<div class="col-sm-3 col-xs-12 item">
+		<div class="widget-circle" style="background-color:#93c524; color:#93c524;">
+			<img src="/assets/img/kids2.png" alt="circle image" data-no-retina="">
+			<div class="item-circle-edge" style="box-shadow: 0 0 0 4px #93c524;">
+			</div>
+		</div>
+		<div class="widget-circle-title" style="color:#93c524">
+			Excellent Programmes					
+		</div>
+		
+	</div>
+	<div class="col-sm-3 col-xs-12 item">
+		<div class="widget-circle" style="background-color:#28a8e3; color:#28a8e3;">
+			<img src="/assets/img/babytoy14.png" alt="circle image" data-no-retina="">
+			<div class="item-circle-edge" style="box-shadow: 0 0 0 4px #28a8e3;">
+			</div>
+		</div>
+		<div class="widget-circle-title" style="color:#28a8e3">
+			Funny Games					
+		</div>
+		
+	</div>
+</div>
+
+<div class="enroll">
+	Enroll with your child with us <span class="space">&nbsp; &nbsp; &nbsp; &nbsp;</span>
+	<button (click)="enroll()">Click Here!</button>
+</div>
+
+<aside id="kiddie_courses_widget-2" class="widget widget-home widget_kiddie_courses_widget">		
+<div class="container courses-wrapper widget-courses-2">
+	<div class="row">
+	    <div class="col-xs-12 widget-title widget-title-dark">
+	     	<h2 class="widget-title">Our Popular Courses</h2>
+	     </div>
+		
+
+		<div class="col-sm-4 col-xs-12">
+	    	<div class="item item-course-1" style="background-color:#f25141;">
+	     		<div class="item-circle-top" style="background-color:#ff614f;">
+	     			<img src="/assets/img/babyclothing2.png" alt="Course" data-no-retina="">
+	     		</div>
+	     		<div class="item-course-title">Nursery</div>
+	     		<div class="item-course-sub-title">Age 1.5 to 2.5</div>
+	     		<div class="item-course-description">Our approach to learning and teaching is through child centered play and education. We have a fully equipped nursery.</div>
+	     		<div class="item-footer-content">
+	     			<img class="item-footer-phantom" src="/assets/img/babyclothing2.png" alt="Course" data-no-retina="">
+	     			<div class="item-get-in-touch">
+							<a routerLink="#" title="More">
+	     					More	     						
+	     				</a>
+	     			</div>
+	     		</div>
+	     	</div>
+		</div>
+
+		<div class="col-sm-4 col-xs-12">
+	    	<div class="item item-course-2" style="background-color:#93c524;">
+	     		<div class="item-circle-top" style="background-color:#a4d638;">
+	     			<img src="/assets/img/toy56.png" alt="Course" data-no-retina="">
+	     		</div>
+	     		<div class="item-course-title">Jr. Kg</div>
+	     		<div class="item-course-sub-title">Age 2.5 to 3.5</div>
+	     		<div class="item-course-description">Your child is growing up fast and ready for a little more independence, our Junior Kindergarden is be a perfect introduction.</div>
+	     		<div class="item-footer-content">
+	     			<img class="item-footer-phantom" src="/assets/img/toy56.png" alt="Course" data-no-retina="">
+	     			<div class="item-get-in-touch">
+							<a routerLink="#" title="More">
+	     					More	     						
+	     				</a>
+	     			</div>
+	     		</div>
+	     	</div>
+		</div>
+
+		<div class="col-sm-4 col-xs-12">
+	    	<div class="item item-course-3" style="background-color:#28a8e3;">
+	     		<div class="item-circle-top" style="background-color:#42b7f3;">
+	     			<img src="/assets/img/teddybear1.png" alt="Course" data-no-retina="">
+	     		</div>
+	    		<div class="item-course-title">Super Kiddie</div>
+	     		<div class="item-course-sub-title">Age 3.5 to 4.5</div>
+	     		<div class="item-course-description">With a wide range of activities, imaginative play & physical activities, our staff engages with your children.</div>
+	     		<div class="item-footer-content">
+	     			<img class="item-footer-phantom" src="/assets/img/teddybear1.png" alt="Course" data-no-retina="">
+	     			<div class="item-get-in-touch">
+							<a routerLink="#" title="More">
+	     				More	     						
+	     				</a>
+	     			</div>
+	     		</div>
+	     	</div>
+		</div>
+
+	</div>
+</div>
+</aside>
+
+
+
+
+<div class="con">
+	<div class="message">
+	<input class="itag" type="text" id="username" ngModel name="username" placeholder="Name" required><br>
+    <input type="email" id="email" class="itag" ngModel name="email" placeholder="Email id" required>   <br>
+    <textarea name="questionAnswer" rows="5" class="itag" ngModel placeholder="Message"></textarea><br>
+    <button class="itag b">Send</button></div>
+    <div class="map">
+    	<div class="addr">
+    	<img src="assets/img/wedding-location.png">
+    	H/43, Mahindra Park, Ghatkopar West, Mumbai.<br>
+    	<iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=mahindra%20park+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+    
+
+    </div>
+</div>
+<div class="last">
+	<h2> About Us:</h2>
+<h3>20th Successful Year of Stepping Stones. We stimulate the child’s imagination and capacity by providing opportunities
+	 for the child to grow and develop through listening, playing, visualising and sense of touch. Stepping Stones is 
+	 equipped with Computers, Books, Toys, Puppets, Colours, Paints, Stories, Games, Sticks, Seeds for growing, 
+	 Sandpit for exploring.</h3>
+</div>
+
+
+
+
+
+
+
 
